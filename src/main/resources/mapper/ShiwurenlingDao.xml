@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.ShiwurenlingDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.ShiwurenlingEntity" id="shiwurenlingMap">
+        <result property="zhanghao" column="zhanghao"/>
+        <result property="xingming" column="xingming"/>
+        <result property="shiwubiaoti" column="shiwubiaoti"/>
+        <result property="shiwumingcheng" column="shiwumingcheng"/>
+        <result property="shiwuleixing" column="shiwuleixing"/>
+        <result property="shiwushuliang" column="shiwushuliang"/>
+        <result property="shizhuhao" column="shizhuhao"/>
+        <result property="shizhuming" column="shizhuming"/>
+        <result property="lianxifangshi" column="lianxifangshi"/>
+        <result property="yishishijian" column="yishishijian"/>
+        <result property="yishididian" column="yishididian"/>
+        <result property="shiwuzhengming" column="shiwuzhengming"/>
+        <result property="sfsh" column="sfsh"/>
+        <result property="shhf" column="shhf"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.ShiwurenlingVO" >
+		SELECT * FROM shiwurenling  shiwurenling         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.ShiwurenlingVO" >
+		SELECT  shiwurenling.* FROM shiwurenling  shiwurenling 	
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.ShiwurenlingView" >
+
+		SELECT  shiwurenling.* FROM shiwurenling  shiwurenling 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.ShiwurenlingView" >
+		SELECT * FROM shiwurenling  shiwurenling <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+</mapper>

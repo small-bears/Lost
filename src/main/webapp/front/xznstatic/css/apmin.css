@@ -1,0 +1,527 @@
+/*DC.min*/
+@charset "utf-8";
+@media screen and (max-width : 1920px) {
+  .am-ki-relation {
+    background-image: url(../images/opkoisa.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+  }
+}
+@media screen and (max-width : 1370px) {
+  .am-inside-adv {
+    height: 400px;
+  }
+  .am-inside-swf {
+    height: 560px;
+  }
+}
+@media screen and (max-width : 1320px) {}
+@media screen and (max-width : 1280px) {}
+@media screen and (max-width : 1220px) {
+  .am-headerv {
+    width: 100%;
+    height: 86px;
+  }
+  .am-headthe {
+    width: 100%;
+  }
+  .ng-head {
+    padding: 0px 15px;
+  }
+  .am-pc-nav > ul > li .am-pclink {
+    font-size: 1.4rem;
+  }
+  .am-pc-nav > ul > li {
+    margin: 0px 6px;
+  }
+  .am-logo {
+    height: 70px;
+  }
+  .am-pc-nav > ul {
+    margin-top: 10px;
+  }
+  .ng-head {
+    height: 132px;
+  }
+  .am-pc-sharebtn {
+    margin-top: 26px;
+    padding: 9px;
+  }
+  .am-pc-sharebtn img {
+    width: 22px;
+    height: 22px;
+  }
+  .am-pc-nav > ul > li .am-pclink {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .am-pc-level {
+    padding: 11px 0px 0px;
+  }
+  .am-pc-share {
+    top: 93px;
+  }
+  .ng-inzep-itit {
+    font-size: 2.7rem;
+  }
+}
+@media screen and (max-width : 1180px) {}
+@media screen and (max-width : 1080px) {}
+@media screen and (max-width : 1024px) {}
+@media screen and (max-width : 992px) {
+  .am-ipad-show {
+    display: block;
+  }
+  .am-ipad-hide {
+    display: none;
+  }
+  .ipad-nav-butt {
+    top: 12px;
+  }
+  .ng-head {
+    height: 60px;
+  }
+  .am-logo {
+    height: 50px;
+    left: 10px;
+    top: 5px;
+  }
+  .ng-swiper a {
+    background-size: auto 100%;
+  }
+  .ng-swiper {}
+  .am-headthe {
+    display: none;
+  }
+  .am-headerv {
+    height: 60px;
+  }
+  .am-pc-sharebtn {
+    margin-top: 12px;
+  }
+  .am-pc-share {
+    width: 100%;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+  }
+  .am-pc-sharebtn {
+    right: 45px;
+  }
+  .ng-inmod-ini {
+    padding: 24px 0px 20px;
+  }
+  .ng-inmod-the {
+    margin: 10px auto;
+    width: 220px;
+    height: 90px;
+  }
+  .ng-inmod-the-cn {
+    font-size: 2.4rem;
+    line-height: 28px;
+    margin: 12px auto 10px;
+  }
+  .ng-inmod-the-en {
+    font-size: 2rem;
+    line-height: 24px;
+  }
+  .ng-ines li a {
+    padding: 10px 40px;
+  }
+  .ng-ines li {
+    margin: 0px 10px 12px;
+  }
+  .ng-incontlst-tit {
+    margin-top: 18px;
+  }
+  .ng-incontlst-tit > span {
+    margin: 10px auto;
+  }
+  .ng-incontlst-ikk {
+    margin: 16px auto 20px;
+  }
+  .ng-incontlst-tit {
+    font-size: 1.8rem;
+  }
+  .ng-incontlst-doc .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .ng-incontlst-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .ng-abstimg {
+    margin-bottom: 20px;
+  }
+  .ng-abst-text {
+    height: 44px;
+  }
+  .ng-inzep-img {
+    margin: 0px auto 0px;
+    float: none;
+  }
+  .ng-inzep-iff {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 12px auto 0px;
+  }
+  .ng-inzep-ikk {
+    position: static;
+    margin: 16px 0px 10px;
+  }
+  .ng-inzep-text {
+    height: 96px;
+  }
+  .ng-inzep-itit {
+    font-size: 2.4rem;
+    line-height: 34px;
+    height: auto;
+  }
+  .ng-neswipe {
+    padding: 16px 10px;
+  }
+  .ng-inzep {
+    padding-bottom: 22px;
+  }
+  .ng-zein-iten {
+    width: 100%;
+  }
+  .ng-zein-iten-link li {
+    width: 100%;
+    border-right: 0px;
+    border-bottom: 1px solid #C8C8C8;
+    padding: 4px 0px;
+  }
+  .ng-zeinkk {
+    font-size: 1.6rem;
+    line-height: 28px;
+    padding: 3px 0px;
+  }
+  .ng-zein-iten-link {
+    width: 100%;
+  }
+  .ng-zein {
+    padding: 16px 0px 18px;
+  }
+  .ng-zein-code {
+    float: left;
+    margin-top: 18px;
+  }
+  .ng-prslist ul li {
+    width: 33.33%;
+  }
+  .ng-vrslist ul li {
+    width: 33.33%;
+  }
+  .am-inside-adv {
+    height: 280px;
+  }
+  .ng-evnew-tit {
+    font-size: 2.4rem;
+    line-height: 34px;
+    margin: 0px 0px 6px;
+  }
+  .ng-eleave {
+    margin: 10px auto 2px;
+  }
+  .ng-subse-text {
+    font-size: 1.5rem;
+  }
+  .ng-subse-tit {
+    font-size: 2.2rem;
+  }
+  .ng-subse {
+    padding-bottom: 4px;
+  }
+  .ng-potapp-list ul li {
+    width: 33.33%;
+  }
+  .ng-potapp-tit {
+    font-size: 2.2rem;
+  }
+  .am-inside-swf {
+    height: 480px;
+  }
+}
+@media screen and (max-width:860px) {}
+@media screen and (max-width : 768px) {
+  .ng-incontlst-col {
+    width: 50%;
+  }
+  .ng-abst-text {
+    height: auto;
+    margin-bottom: 18px;
+  }
+  .ng-inzep .swiper-pagination-switch {
+    width: 12px;
+    height: 12px;
+  }
+  .ng-isenst-doc .row {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .ng-isenst-doc .col-md-4, .ng-isenst-doc .col-xs-6 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .ng-isenst-bor {
+    margin: 0px 0px 16px;
+  }
+  .ng-prslist ul li {
+    width: 50%;
+  }
+  .ng-vrslist ul li {
+    width: 50%;
+  }
+  .ng-vrslist-doc {
+    margin: 0px 0px 14px;
+  }
+  .ng-newbve-img {
+    width: 100%;
+    margin: 0px auto 14px;
+    max-width: 380px;
+  }
+  .ng-newbve-iff {
+    position: static;
+  }
+  .ng-newbve {
+    height: auto;
+  }
+  .ng-newbve-ikk {
+    position: static;
+    margin-top: 12px;
+  }
+  .ng-newsiis li {
+    padding-bottom: 14px;
+    margin: 0px 0px 14px;
+  }
+  .ng-eleave-inpu-col-4 {
+    width: 100%;
+  }
+  .ng-eleave {
+    margin: 20px auto 2px;
+  }
+  .ng-eleave-tit {
+    font-size: 1.7rem;
+  }
+  .ng-subc-doc {
+    width: 100%;
+  }
+  .ng-subc-sli {
+    margin: 20px 0px 26px;
+  }
+  .ng-subc {
+    margin: 0px auto 16px;
+  }
+  .ng-add-deinput {
+    width: 220px;
+  }
+  .table-responsive {
+    border: 1px solid #F5BB00;
+  }
+}
+@media screen and (max-width: 641px) {
+  .am-logo {
+    left: 4px;
+  }
+  .ng-inzep-img {
+    width: 360px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 606px) {}
+@media screen and (max-width: 583px) {}
+@media screen and (max-width: 560px) {}
+@media screen and (max-width: 540px) {
+  .ng-paging li a {
+    padding: 6px 10px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 510px) {}
+@media screen and (max-width: 530px) {}
+@media screen and (max-width: 500px) {}
+@media screen and (max-width: 480px) {
+  .ng-swiper-ovleft, .ng-swiper-ovright, .am-op-swiper .am-op-ovleft, .am-op-swiper .am-op-ovright {
+    display: none;
+  }
+  .ng-head {
+    padding: 0px 10px;
+  }
+  .ng-swiper a {
+    background-size: auto 100%;
+  }
+  .ng-swiper {}
+  .ng-ines li a {
+    padding: 10px 30px;
+  }
+  .ng-ines {
+    padding: 10px 0px 0px;
+  }
+  .ng-inmod-the {
+    margin: 4px auto;
+    width: 200px;
+    height: 80px;
+  }
+  .ng-inmod-the-cn {
+    font-size: 2rem;
+    line-height: 26px;
+    margin: 10px auto 8px;
+  }
+  .ng-inmod-the-en {
+    font-size: 1.8rem;
+    line-height: 22px;
+  }
+  .ng-incontlst-col {
+    width: 100%;
+  }
+  .ng-incontlst-text {
+    height: auto;
+  }
+  .ng-ines li a {
+    padding: 8px 22px;
+  }
+  .ng-ines li {
+    margin: 0px 6px 10px;
+  }
+  .ng-incontlst-col {
+    margin: 0px auto 16px;
+  }
+  .ng-inzep-itit {
+    font-size: 2rem;
+  }
+  .ng-inzep-ikk > a {
+    padding: 8px 20px;
+    font-size: 1.4rem;
+  }
+  .ng-inzep-text {
+    font-size: 1.4rem;
+  }
+  .ng-isenst-doc .col-md-4, .ng-isenst-doc .col-xs-6 {
+    width: 100%;
+  }
+  .ng-zeinkk {
+    font-size: 1.5rem;
+  }
+  .ng-prslist ul {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .ng-prslist ul li {
+    padding: 2px 6px;
+  }
+  .ng-prslist-doc {
+    margin: 0px 0px 16px;
+  }
+  .ng-prslist-tit > span {
+    font-size: 1.5rem;
+    margin-right: 8px;
+  }
+  .ng-vrslist-tit-title {
+    font-size: 1.5rem;
+  }
+  .ng-vrslist-tit-date {
+    font-size: 1.4rem;
+  }
+  .ng-vrslist ul {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .ng-vrslist ul li {
+    padding: 2px 6px;
+  }
+  .ng-vrslist-doc {
+    padding: 5px;
+  }
+  .ng-vrslist-tit {
+    margin: 6px 0px 2px;
+  }
+  .ng-vrslist-doc {
+    margin: 0px 0px 10px;
+  }
+  .ng-inpusbox {
+    font-size: 1.4rem;
+  }
+  .ng-newbve-itit {
+    font-size: 1.6rem;
+    height: 30px;
+    line-height: 30px;
+  }
+  .ng-newbve-text {
+    font-size: 1.4rem;
+  }
+  .ng-newbve-ikk > a {
+    padding: 6px 14px;
+  }
+  .ng-evnew-tit {
+    font-size: 1.8rem;
+    margin: 0px auto 1px;
+  }
+  .ng-evnew-mod {
+    font-size: 1.4rem;
+  }
+  .ng-lins-cont-cn {
+    font-size: 2rem;
+  }
+  .ng-lins {
+    margin: 0px auto 18px;
+    font-size: 1.5rem;
+  }
+  .ng-eleave-tit {
+    font-size: 1.6rem;
+  }
+  .ng-subse-tit {
+    font-size: 2rem;
+  }
+  .ng-subse-text {
+    font-size: 1.4rem;
+  }
+  .ng-potapp-list ul li {
+    width: 50%;
+  }
+  .ng-potapp-tit {
+    font-size: 2rem;
+  }
+  /*.am-inside-swf{height:360px;}*/
+}
+@media screen and (max-width: 472px) {}
+@media screen and (max-width: 444px) {}
+@media screen and (max-width: 435px) {}
+/*iphone6 plus - iphone6s plus*/
+@media screen and (max-width: 416px) {
+  .ng-inzep-itit {
+    font-size: 1.8rem;
+  }
+  .ng-prslist-doc {
+    padding: 6px;
+  }
+  /*.am-inside-swf{height:280px;}*/
+}
+@media screen and (max-width: 395px) {}
+@media screen and (max-width: 380px) {
+  .ipad-nav > ul > li .ipad-nav-link {
+    font-size: 1.4rem;
+  }
+  .ipad-nav-level li a {
+    font-size: 1.3rem;
+  }
+  .ng-paddor {
+    padding: 0px 10px;
+  }
+  .ng-prslist-tit > span {
+    font-size: 1.4rem;
+    margin-right: 6px;
+  }
+  .ng-prslist-tit {
+    font-size: 1.3rem;
+  }
+}
+/*iphone6 - iphone6s */
+@media screen and (max-width: 376px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 340px) {}
+/*iphone5 - iphone5s and 5e,5s*/
+@media screen and (max-width: 321px) {}

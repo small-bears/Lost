@@ -1,0 +1,2080 @@
+/*DC椤圭洰*/
+@charset "utf-8";
+html {
+  color: #1A1617;
+  font-family: 'Microsoft yahei', Arial !important;
+  font-size: 62.5%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0px auto;
+  min-width: 320px;
+  font-family: 'Microsoft yahei', Arial !important;
+}
+a {
+  color: #1A1617;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+ol, ul, li {
+  list-style: none;
+}
+i {
+  background-color: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+  /*height:6000px;*/
+  -webkit-overflow-scrolling: touch;
+}
+select::-ms-expand {
+  display: none;
+}
+input[type="text"], input[type="button"], textarea, select {
+  -webkit-appearance: none;
+  appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+@keyframes myani1 {
+  0% {
+    color: rgba(255, 255, 255, .4);
+  }
+  50% {
+    color: rgba(255, 255, 255, 1);
+  }
+  0% {
+    color: rgba(255, 255, 255, .4);
+  }
+}
+@keyframes myani2 {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  10% {
+    -webkit-transform: translate(-4px, 0px);
+    -moz-transform: translate(-4px, 0px);
+    -o-transform: translate(-4px, 0px);
+    -ms-transform: translate(-4px, 0px);
+    transform: translate(-4px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(480px, 0px);
+    -moz-transform: translate(480px, 0px);
+    -o-transform: translate(480px, 0px);
+    -ms-transform: translate(480px, 0px);
+    transform: translate(480px, 0px);
+  }
+}
+h3.no_records {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin: 50px 0px;
+}
+.ng-fault {
+  width: 100%;
+  overflow: hidden;
+}
+.ng-container {
+  position: relative;
+}
+.ng-bg {
+  background-color: rgba(0, 0, 0, .1);
+}
+.ng-bg-theme {
+  background-color: #C9293E !important;
+}
+.ng-bg-ccc {
+  background-color: #F9F9F9 !important;
+}
+.ng-bg-fff {
+  background-color: #fff !important;
+}
+.ng-bg-fuse {
+  background-color: #FDD1B0 !important;
+}
+.ng-bg-assist {
+  background-color: #F1F1F1;
+}
+.ng-bg-info {
+  background-color: #6FB7FA;
+}
+.ng-bg-succeed {
+  background-color: #A5DA43;
+}
+.ng-bg-warning {
+  background-color: #FFCA3B;
+}
+.ng-bg-danger {
+  background-color: #FF8F76;
+}
+.ng-pull-left {
+  float: left;
+}
+.ng-pull-right {
+  float: right;
+}
+.ng-paddor {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.ng-oa a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.ng-oa a img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.headroom {
+  transition: transform 200ms linear;
+  -webkit-transition: all .5s ease-in 0s;
+  -moz-transition: all .5s ease-in 0s;
+  -o-transition: all .5s ease-in 0s;
+  transition: all .5s ease-in 0s;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+.navbar-fixed-top {
+  border-color: rgba(0, 0, 0, .8);
+  border-width: 0px 0px 0px;
+}
+body {
+  /*min-height:2000px;*/
+}
+.ng-head {
+  width: 100%;
+  height: 150px;
+  border: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-inverse {
+  /*background-color:#2E2E2E;*/
+}
+.am-headthe {
+  height: 46px;
+  border-bottom: 1px solid #E0E0E0;
+  width: 1200px;
+  margin: 0px auto 0px;
+}
+.ng-hotline {
+  position: relative;
+}
+.ng-hotline-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.ng-hotline-icon img {
+  width: 100%;
+  display: block;
+}
+.ng-hotline-text {
+  font-size: 1.2rem;
+  color: #000000;
+  line-height: 45px;
+  display: block;
+  margin-left: 4px;
+}
+.ng-hotline-text > span {
+  color: #979797;
+}
+.ng-lang {
+  position: relative;
+  margin-left: 8px;
+}
+.ng-lang-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  margin-top: 16px;
+  overflow: hidden;
+}
+.ng-lang-icon img {
+  width: 100%;
+  display: block;
+}
+.ng-lang-text {
+  font-size: 1.3rem;
+  color: #979797;
+  line-height: 45px;
+  display: block;
+  margin-left: 6px;
+}
+.am-headerv {
+  width: 1200px;
+  /*overflow:hidden;*/
+  height: 104px;
+  margin: 0px auto;
+  position: relative;
+}
+.am-logo {
+  position: absolute;
+  height: 86px;
+  left: 0px;
+  top: 8px;
+  z-index: 100;
+  display: block;
+}
+.am-logo .am-logo-link {
+  height: 100%;
+  display: block;
+}
+.am-logo .am-logo-link img {
+  display: block;
+  height: 100%;
+  margin-top: 0px;
+}
+.am-logo-tit {
+  display: block;
+  line-height: 50px;
+  font-size: 3.6rem;
+  color: #1866A4;
+  display: block;
+  margin: 0px;
+  padding: 0px 0px 0px 12px;
+  height: 50px;
+  font-weight: 400;
+}
+.am-logo-tit a {
+  color: #1866A4;
+}
+/*涓€绾C瀵艰埅*/
+.am-pc-nav {
+  float: right;
+  margin-right: 6px;
+  margin-top: 0px;
+  position: relative;
+  height: 100%;
+  z-index: 50;
+}
+.am-pc-nav > ul {
+  margin-top: 20px;
+}
+.am-pc-nav > ul > li {
+  float: left;
+  margin: 0px 10px;
+  position: relative;
+  z-index: 6;
+}
+.am-pclink-borv {
+  height: 3px;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 56px;
+}
+.am-pclink-borv > span {
+  display: block;
+  width: 0%;
+  height: 100%;
+  margin: 0px auto 0px;
+  background-color: #F5BB00;
+}
+.am-pc-nav > ul > li .am-pclink {
+  display: block;
+  padding: 0px 10px;
+  line-height: 41px;
+  color: #3F3E3E;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  font-size: 1.5rem;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.am-pc-nav > ul > li.ng-nav-activate .am-pclink, .am-pc-nav > ul > li:hover .am-pclink {
+  color: #F5BB00;
+}
+.am-pc-nav > ul > li.ng-nav-activate .am-pclink-borv > span {
+  width: 100% !important;
+}
+.am-pc-sharebtn {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 0px;
+  outline: 0px;
+  position: relative;
+  padding: 7px;
+  margin-top: 39px;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
+.am-pc-sharebtn img {
+  width: 26px;
+  height: 26px;
+}
+.am-pc-share {
+  padding: 10px;
+  background-color: #D3D3D3;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 40;
+  width: 240px;
+  top: 114px;
+  right: 0px;
+  display: none;
+}
+.am-pc-share-activate {}
+.am-pc-share-intext {
+  width: 100%;
+  overflow: hidden;
+  height: 34px;
+  padding: 0px 60px 0px 0px
+}
+.am-pc-share-intext input[type="text"] {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0px 2px;
+  text-indent: 4px;
+  outline: 0px;
+  font-size: 1.3rem;
+}
+.am-pc-share-inbtn {
+  height: 34px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  display: block;
+}
+.am-pc-share-inbtn input[type="submit"] {
+  padding: 2px 4px;
+  width: 50px;
+  height: 34px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: 0px;
+  background-color: #fff;
+}
+.am-pcv-activate {
+  height: 2px;
+  background-color: #C9151E;
+  position: absolute;
+  left: 0%;
+  display: block;
+  width: 20px;
+  top: 56px;
+  z-index: 2;
+}
+#am-roop {
+  border: 1px solid #FFFFFF;
+}
+.am-pc-nav > ul > li a#am-roop:hover {
+  border: 1px solid #4EAD07;
+}
+/*浜岀骇PC瀵艰埅*/
+.am-pc-level {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  height: 0px;
+  padding: 18px 0px 0px;
+  overflow: hidden;
+}
+.am-pc-level li {
+  padding: 0px 0px;
+  margin: 0px auto 0;
+}
+.am-pc-level li a {
+  display: block;
+  white-space: nowrap;
+  padding: 10px 12px;
+  background-color: #D3D3D3;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3F3E40;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.am-pc-level li a:hover {
+  color: #F5BB00;
+}
+.sianai {
+  position: absolute;
+  top: 80px;
+  font-size: 3.4rem;
+  color: red;
+  z-index: 4;
+}
+.am-add {
+  width: 100%;
+  overflow: hidden;
+}
+.ng-swiper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-container {
+  color: #fff;
+  margin: 0px auto 0px;
+  text-align: center;
+}
+.am-add .swiper-slide {
+  width: 100%;
+}
+.am-add .swiper-slide img {
+  width: 100%;
+}
+.ng-swiper a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-color:plum;*/
+}
+.ng-swiper .swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 14px;
+  width: 100%;
+  text-align: center;
+}
+.ng-swiper .swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+  background-color: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.ng-swiper .swiper-active-switch {
+  background: #F3782A;
+}
+.ng-swiper .swiper-button-prev, .ng-swiper .swiper-container-rtl .swiper-button-next {
+  background-image: none;
+}
+.ng-swiper .swiper-button-next, .ng-swiper .swiper-container-rtl .swiper-button-prev {
+  background-image: none;
+}
+.ng-swiper .ng-swiper-ovleft {
+  /*background-image:url(../images/arrow_left.png);*/
+  left: 10px;
+}
+.ng-swiper .ng-swiper-ovright {
+  /*background-image:url(../images/arrow_right.png);*/
+  right: 10px;
+}
+.ng-swiper-ovleft, .ng-swiper-ovright {
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+  background-size: 100% 100%;
+  background-position: center center;
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+}
+.ng-swiper:hover .ng-swiper-ovleft, .ng-swiper:hover .ng-swiper-ovright {
+  opacity: 1;
+}
+.ng-swiper-ovleft img, .ng-swiper-ovright img {
+  width: 100%;
+  display: block;
+}
+.ipad-nav-butt {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  border: 0px;
+  padding: 7px;
+  outline: 0px;
+  background-color: #fff;
+  display: block;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+  top: -140px;
+  z-index: 1034;
+}
+.ipad-nav-butt img {
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+.ipad-nav {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 36;
+  color: #fff;
+}
+.ipad-nav > ul {
+  margin: 10px auto;
+  padding: 0px 15px 0px;
+  overflow: auto;
+  max-height: 360px;
+  -webkit-overflow-scrolling: touch;
+}
+.ipad-nav > ul > li {
+  width: 100%;
+  overflow: hidden;
+}
+.ipad-nav > ul > li .ipad-nav-link {
+  width: 100%;
+  padding: 0px 2px;
+  border-bottom: 1px solid #3a3a3a;
+  display: block;
+  height: 37px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0px auto;
+  color: #fff;
+  line-height: 36px;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.ipad-nav > ul > li .ipad-nav-link-activate, .ipad-nav > ul > li .ipad-nav-link:hover {
+  color: #FECB0F;
+}
+.ipad-nav > ul > li a#am-roop2 {
+  border-radius: 8px;
+  max-width: 50%;
+  line-height: 32px;
+  border: 1px solid #fff;
+  margin: 0px auto;
+}
+.ipad-nav > ul > li a#am-roop2:hover {
+  border: 1px solid #4EAD07;
+}
+.ipad-nav-level {
+  width: 100%;
+  padding: 0px 0px 0px 20px;
+}
+.ipad-nav-level li {
+  width: 100%;
+  overflow: hidden;
+}
+.ipad-nav-level li a {
+  width: 100%;
+  padding: 0px 2px;
+  border-bottom: 1px solid #FFFFFF;
+  display: block;
+  height: 37px;
+  overflow: hidden;
+  font-size: 1.4rem;
+  text-align: left;
+  margin: 0px auto;
+  color: #fff;
+  line-height: 36px;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.ipad-nav-down {
+  position: relative;
+  text-align: center;
+}
+.ipad-nav-down > span {
+  height: 30px;
+  display: inline-block;
+}
+.ipad-nav-down > span > img {
+  height: 100%;
+  display: inline-block;
+}
+.ng-insor-ikk {
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 4px 0px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.ng-insor-ikk > span {
+  padding: 2px 0px 2px 24px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 0px center;
+}
+.ng-ensign-no_1 {
+  background-image: url(../images/china.png);
+}
+.ng-ensign-no_2 {
+  background-image: url(../images/britain.png);
+}
+.ng-insor-itext {
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 4px 0px;
+  margin: 6px 0px 10px;
+}
+.ng-insor-itext > span {
+  padding: 2px 0px 2px 24px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 0px center;
+  background-image: url(../images/icnphone.png);
+}
+.ng-insor-itext > span > span {
+  color: #979797;
+}
+.ng-inmod {}
+.ng-inmod-ini {
+  max-width: 1200px;
+  margin: 0px auto 0px;
+  overflow: hidden;
+  padding: 38px 0px 34px;
+}
+.ng-inmod-the {
+  margin: 20px auto;
+  width: 270px;
+  height: 110px;
+  overflow: hidden;
+  z-index: 4;
+  /*background-color:#fff;*/ ;
+}
+.ng-inmod-the-bg {
+  position: absolute;
+  width: 62%;
+  overflow: hidden;
+}
+.ng-inmod-the-bg img {
+  width: 100%;
+  display: block;
+}
+.ng-inmod-the-bg-left {
+  left: 0px;
+  top: 0px;
+}
+.ng-inmod-the-bg-right {
+  right: 0px;
+  bottom: 0px;
+}
+.ng-inmod-the-cn {
+  font-size: 3rem;
+  color: #F5BB00;
+  line-height: 40px;
+  text-align: center;
+  width: 90%;
+  margin: 12px auto 12px;
+  display: block;
+}
+.ng-inmod-the-en {
+  font-size: 2.4rem;
+  color: #C5C5C5;
+  line-height: 26px;
+  text-align: center;
+  width: 94%;
+  margin: 2px auto 2px;
+  display: block;
+  overflow: hidden;
+  height: 26px;
+  text-transform: uppercase;
+}
+.ng-inmod-thebor {
+  height: 1px;
+  background-color: #D4D4D4;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+}
+.ng-ines {
+  text-align: center;
+  padding: 16px 0px 0px;
+}
+.ng-ines li {
+  margin: 0px 12px 20px;
+  display: inline-block;
+}
+.ng-ines li a {
+  display: inline-block;
+  padding: 10px 52px;
+  border: 1px solid #C9C9C9;
+  color: #C9C9C9;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 22px;
+}
+.ng-ines li a:hover, .ng-ines li a.on {
+  color: #F5BB00;
+  border: 1px solid #F5BB00;
+}
+.ng-incontlst {
+  padding: 20px 0px 0px;
+}
+.ng-incontlst-doc {
+  position: absolute;
+  top: -999em;
+}
+.ng-incontlst-doc-show {
+  position: static;
+}
+.ng-incontlst-doc .row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.ng-incontlst-col {
+  float: left;
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px 0px 28px;
+}
+.ng-incontlst-bor {
+  border: 1px solid #C9C9C9;
+  overflow: hidden;
+  background-color: #fff;
+}
+.ng-incontlst-img {
+  position: relative;
+}
+.ng-incontlst-tit {
+  line-height: 26px;
+  font-size: 2rem;
+  color: #3F3F3F;
+  text-align: center;
+  margin-top: 24px;
+}
+.ng-incontlst-tit > p {
+  height: 26px;
+  overflow: hidden;
+  display: block;
+}
+.ng-incontlst-tit > span {
+  display: block;
+  background-color: #C9C9C9;
+  width: 40px;
+  height: 1px;
+  margin: 16px auto;
+}
+.ng-incontlst-text {
+  line-height: 22px;
+  color: #666666;
+  font-size: 1.3rem;
+  height: 70px;
+  overflow: hidden;
+  padding: 2px 12px;
+}
+.ng-incontlst-ikk {
+  display: block;
+  position: relative;
+  width: 82%;
+  margin: 16px auto 32px;
+  text-align: center;
+  color: #9E9E9E;
+  font-size: 1.4rem;
+  border: 1px solid #C9C9C9;
+  padding: 12px 0px;
+  max-width: 160px;
+}
+.ng-incontlst-ikk:hover {
+  color: #FCCA0F;
+}
+.ng-abst {
+  margin: 20px auto 0px;
+}
+.ng-abstimg {
+  position: relative;
+}
+.ng-abstimg img {
+  width: 100%;
+  display: block;
+}
+.ng-abst-the {
+  border-bottom: 2px solid #F5BB00;
+  margin: 0px auto 6px;
+}
+.ng-abst-ico {
+  width: 36px;
+  height: 36px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.ng-abst-ico img {
+  width: 100%;
+  display: block;
+}
+.ng-abst-the-tit {
+  line-height: 28px;
+  height: 28px;
+  padding: 0px 40px 0px 0px;
+  font-size: 1.5rem;
+  color: #666666;
+}
+.ng-abst-the-ikk {
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  font-size: 1.3rem;
+  line-height: 28px;
+  color: #EEC400;
+  position: absolute;
+}
+.ng-abst-text {
+  line-height: 22px;
+  color: #666666;
+  height: 66px;
+  overflow: hidden;
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+}
+.ng-neswipe {
+  padding: 32px;
+  margin: 18px auto 14px;
+}
+.ng-inzep {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: auto !important;
+}
+.ng-inzep .swiper-wrapper {
+  height: auto !important;
+}
+.ng-inzep .swiper-slide {
+  position: relative;
+  color: #000;
+  height: auto !important;
+}
+.ng-inzep .swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 0px;
+  width: auto;
+  text-align: left;
+  right: 0px;
+}
+.ng-inzep .swiper-pagination-switch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 0px;
+  background-color: #fff;
+  margin: 0 6px;
+  cursor: pointer;
+  border: 1px solid #686868;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.ng-inzep .swiper-active-switch {
+  background: #686868;
+}
+.ng-inzep-img {
+  width: 420px;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 14px;
+  position: relative;
+}
+.ng-inzep-iff {
+  position: absolute;
+  top: 0px;
+  height: auto;
+  left: 450px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  text-align: left;
+}
+.ng-inzep-ims {
+  padding: 0px 14px 0px 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+}
+.ng-inzep-ims-bor {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  display: block;
+  bottom: 0px;
+  left: 14px;
+  border: 1px solid #C9C9C9;
+  z-index: 2;
+}
+.ng-inzep-itit {
+  height: 46px;
+  overflow: hidden;
+  line-height: 46px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 3rem;
+  color: #333333;
+  width: 100%;
+}
+.ng-inzep-idate {
+  position: relative;
+  padding: 4px 0px 4px 23px;
+  font-size: 1.4rem;
+  color: #686868;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 1px center;
+  background-image: url(../img/tiam.png);
+  margin: 3px 0px;
+}
+.ng-inzep-text {
+  width: 100%;
+  line-height: 24px;
+  color: #333333;
+  font-size: 1.5rem;
+  height: 96px;
+  overflow: hidden;
+  margin: 10px auto 4px;
+}
+.ng-inzep-ikk {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.ng-inzep-ikk > a {
+  display: block;
+  padding: 10px 34px;
+  background-color: #F5BB00;
+  color: #fff;
+  font-size: 1.5rem;
+  float: left;
+}
+.ng-isenst {
+  position: relative;
+  padding: 20px 0px 0px;
+}
+.ng-isenst-doc {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: -999em;
+  left: 0px;
+}
+.ng-isenst-doc-show {
+  position: static;
+}
+.ng-isenst-bor {
+  border: 1px solid #C9C9C9;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 26px;
+}
+.ng-isenst-bor > a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.ng-isenst-img {
+  width: 100%;
+  display: block;
+}
+.ng-isenst-map {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 4;
+  display: block;
+  padding: 14px;
+  -webkit-transition: all .3s ease-in 0s;
+  -moz-transition: all .3s ease-in 0s;
+  -o-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+  -webkit-transform: scale(1.6, 1.6);
+  -moz-transform: scale(1.6, 1.6);
+  -ms-transform: scale(1.6, 1.6);
+  -o-transform: scale(1.6, 1.6);
+  transform: scale(1.6, 1.6);
+}
+.ng-isenst-map > span {
+  border: 1px solid #FFFFFF;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ng-isenst-bor > a:hover .ng-isenst-map {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  opacity: 1;
+}
+.am-end {
+  position: relative;
+  background-color: #E6E6E6;
+  overflow: hidden;
+}
+.am-end-ini {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-zein {
+  padding: 38px 0px 24px;
+  overflow: hidden;
+}
+.ng-zein-iten {
+  width: 82%;
+  float: left;
+  overflow: hidden;
+}
+.ng-zein-iten-link {
+  position: relative;
+  float: left;
+}
+.ng-zein-iten-link li {
+  float: left;
+  padding: 4px 38px;
+  border-right: 1px solid #C8C8C8;
+}
+.ng-zein-iten-link li:last-child {
+  border-right: 0px;
+}
+.ng-zeinkk {
+  position: relative;
+  font-size: 1.7rem;
+  color: #666666;
+  padding: 4px 0px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.ng-zeinkk-ine {
+  color: #666666;
+}
+.ng-zeinkk-ine:hover {
+  color: #FCCA0F;
+}
+.ng-zeinkk-ico {
+  width: 38px;
+  height: 38px;
+  margin: 0px 0px 4px;
+  border: 1px solid #454545;
+  overflow: hidden;
+  border-radius: 100%;
+  float: left;
+  display: block;
+  margin-right: 10px;
+}
+.ng-zeinkk-ico > a {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+}
+.ng-zeinkk-ico > a img {
+  width: 100%;
+  display: block;
+}
+.ng-zein-code {
+  position: relative;
+  float: right;
+  padding: 0px 1px;
+}
+.ng-zein-code-img {
+  width: 106px;
+  height: 106px;
+  margin: 0px auto 6px;
+  overflow: hidden;
+}
+.ng-zein-code-img img {
+  width: 100%;
+  display: block;
+}
+.ng-zein-code-tit {
+  line-height: 24px;
+  padding: 2px 0px;
+  font-size: 1.4rem;
+  color: #666666;
+  text-align: center;
+}
+.ng-siobox {
+  border-top: 1px solid #C6C6C6;
+}
+.ng-siotext {
+  line-height: 24px;
+  font-size: 1.4rem;
+  color: #434343;
+  text-align: center;
+  padding: 16px 0px;
+}
+.am-inside-adv {
+  position: relative;
+  height: 500px;
+  background-size: auto 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ng-inside-box {
+  margin: 26px auto 0px;
+}
+.ng-prslist ul {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.ng-prslist ul li {
+  width: 25%;
+  float: left;
+  padding: 2px 12px;
+}
+.ng-prslist-doc {
+  padding: 10px;
+  background-color: #fff;
+  margin: 0px 0px 20px;
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+}
+.ng-prslist ul li:hover .ng-prslist-doc {
+  box-shadow: 0px 0px 6px #CBCBCB;
+}
+.ng-prslist-img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.ng-prsliik {
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.ng-prsliik .ng-prsliik-ki {
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+}
+.ng-prsliik .ng-prsliik-ki_1, .ng-prslist ul li:hover .ng-prsliik .ng-prsliik-ki_2 {
+  display: table-cell;
+}
+.ng-prsliik .ng-prsliik-ki_2, .ng-prslist ul li:hover .ng-prsliik .ng-prsliik-ki_1 {
+  display: none;
+}
+.ng-prsliik .ng-prsliik-ki_3 {
+  display: table-cell !important;
+}
+.ng-prslist-kiks {
+  height: 100%;
+  display: table;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+}
+.ng-prslist-kiks > span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.ng-prslist-kiks > span img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.ng-prslist-tit {
+  margin: 10px 0px 2px;
+  overflow: hidden;
+  height: 24px;
+  line-height: 24px;
+  color: #9E9E9E;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.ng-prslist-tit > span {
+  color: #000000;
+  font-size: 1.8rem;
+  margin-right: 12px;
+}
+.ng-prslist ul li:hover .ng-prslist-tit > span {
+  color: #F5BB00;
+}
+.ng-paging {
+  position: relative;
+  margin: 12px auto;
+}
+.ng-paging li {
+  margin: 0px 2px;
+  display: inline-block;
+}
+.ng-paging li a {
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #C4C4C4;
+  overflow: hidden;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #999999;
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+}
+.ng-paging li a.on, .ng-paging li a:hover {
+  background-color: #F5BB00;
+  color: #fff;
+}
+.ng-isubnav {
+  border-bottom: 1px solid #CDCDCD;
+  padding: 18px 0px 8px;
+  text-align: center;
+}
+.ng-isubnav li {
+  display: inline-block;
+  padding: 0px 24px;
+  border-right: 1px solid #EAEAEA;
+  font-size: 1.4rem;
+  margin: 0px 0px 8px;
+}
+.ng-isubnav li a.on, .ng-isubnav li a:hover {
+  color: #F5BB00;
+}
+.ng-isubnav li:last-child {
+  border-right: 0px;
+}
+.ng-vrslist ul {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.ng-vrslist ul li {
+  width: 25%;
+  float: left;
+  padding: 2px 12px;
+}
+.ng-vrslist-doc {
+  padding: 10px;
+  background-color: #fff;
+  margin: 0px 0px 20px;
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+}
+.ng-vrslist ul li:hover .ng-vrslist-doc {
+  box-shadow: 0px 0px 6px #CBCBCB;
+}
+.ng-vrslist-img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.ng-vrslist-kiks {
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.ng-vrslist-kiks > span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.ng-vrslist-kiks > span > img {
+  display: block;
+  height: 100%;
+  max-width: 1000%;
+}
+.ng-vrslist-tit {
+  margin: 10px 0px 2px;
+  overflow: hidden;
+}
+.ng-vrslist-tit-title {
+  font-size: 1.7rem;
+  color: #000;
+  padding: 2px 0px;
+  overflow: hidden;
+  margin: 0px auto 3px;
+  height: 24px;
+  line-height: 24px;
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+}
+.ng-vrslist-tit-date {
+  font-size: 1.3rem;
+  color: #9E9E9E;
+  padding: 2px 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+}
+.ng-vrslist ul li:hover .ng-vrslist-tit-title {
+  color: #F6C024;
+}
+.ng-inpusbox {
+  line-height: 24px;
+  font-size: 1.5rem;
+  color: #333333;
+  text-indent: 24px;
+}
+.ng-inpusbox img {
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+}
+.ng-newsiis li {
+  padding-bottom: 24px;
+  border-bottom: 1px dashed #BBBBBB;
+  margin: 0px 0px 24px;
+}
+.ng-newbve {
+  height: 206px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-newbve-img {
+  width: 306px;
+  padding: 6px;
+  border: 1px solid #BBBBBB;
+  overflow: hidden;
+}
+.ng-newbve-img-ikk {}
+.ng-newbve-iff {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 330px;
+  bottom: 0px;
+  z-index: 4;
+}
+.ng-newbve-itit {
+  height: 36px;
+  overflow: hidden;
+  line-height: 36px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.8rem;
+  color: #333333;
+  width: 100%;
+}
+.ng-newbve-itime {
+  position: relative;
+  padding: 3px 0px 3px 23px;
+  font-size: 1.4rem;
+  color: #686868;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 1px center;
+  background-image: url(../img/tiam.png);
+  margin: 3px 0px;
+}
+.ng-newbve-text {
+  width: 100%;
+  line-height: 24px;
+  color: #333333;
+  font-size: 1.5rem;
+  height: 72px;
+  overflow: hidden;
+  margin: 6px auto 4px;
+}
+.ng-newbve-ikk {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.ng-newbve-ikk > a {
+  display: block;
+  padding: 8px 17px;
+  background-color: #F5BB00;
+  color: #fff;
+  font-size: 1.4rem;
+  float: left;
+}
+.ng-evnew {
+  border-bottom: 1px dashed #BBBBBB;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0px auto 20px;
+}
+.ng-evnew-tit {
+  color: #333333;
+  font-size: 2.8rem;
+  padding: 2px 0px;
+  line-height: 36px;
+  margin: 0px 0px 8px;
+}
+.ng-evnew-mod {
+  color: #686868;
+  font-size: 1.5rem;
+  padding: 2px 0px;
+  line-height: 24px;
+  margin: 0px 0px 2px;
+}
+.ng-evnew-mod > span {
+  margin: 0px 14px 0px;
+}
+.ng-lins {
+  margin: 0px auto 32px;
+  overflow: hidden;
+  color: #333333;
+  font-size: 1.6rem;
+}
+.ng-lins p {
+  margin-bottom: 1px;
+}
+.ng-lins-cont-cn {
+  font-size: 2.4rem;
+  padding: 2px 0px;
+  margin-bottom: 2px;
+}
+.ng-lins-cont-en {
+  font-size: 1.6rem;
+  padding: 2px 0px;
+  margin-bottom: 2px;
+}
+.ng-eleave {
+  margin: 42px auto 2px;
+}
+.ng-eleave-tit {
+  line-height: 30px;
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.ng-eleave-inpu {}
+.ng-eleave-inpu-row {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+.ng-eleave-inpu-col-4 {
+  width: 33.33%;
+  float: left;
+  padding: 0px 6px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-eleave-inpu-col-5 {
+  width: 42%;
+  float: left;
+  padding: 0px 6px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-eleave-inpu-col-12 {
+  width: 100%;
+  float: left;
+  padding: 0px 6px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-eleave-form {
+  margin-bottom: 12px;
+}
+input[type="text"].ng-eleave-form {
+  border: 1px solid #C4C4C4;
+  border-radius: 4px;
+  padding: 9px 6px;
+  text-indent: 2px;
+  font-size: 1.4rem;
+  width: 100%;
+  color: #868686;
+  outline: 0px;
+}
+textarea.ng-eleave-form {
+  border: 1px solid #C4C4C4;
+  border-radius: 4px;
+  padding: 8px 6px;
+  text-indent: 2px;
+  font-size: 1.4rem;
+  height: 130px;
+  resize: none;
+  width: 100%;
+  color: #868686;
+  outline: 0px;
+}
+input[type="submit"].ng-eleave-form {
+  width: 100%;
+  background-color: #F5BB00;
+  font-size: 1.6rem;
+  outline: 0px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border: 0px;
+  border-radius: 4px;
+  color: #fff;
+}
+.ng-elverify {
+  width: 100%;
+  padding: 0px 92px 0px 0px;
+  overflow: hidden;
+}
+.ng-elverify-img {
+  position: absolute;
+  top: 0px;
+  right: 6px;
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #C4C4C4;
+}
+.ng-elverify-img a {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+}
+.ng-elverify-img a img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.ng-subc {
+  margin: 0px auto 36px;
+  overflow: hidden;
+  position: relative;
+}
+.ng-subc-row {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.ng-subc-doc {
+  width: 50%;
+  float: left;
+  padding: 0px 30px;
+}
+.ng-subinpe {
+  position: relative;
+  height: 100%;
+}
+.ng-subinpe img {
+  width: 100%;
+  display: block;
+}
+.ng-subinpe .swiper-slide {
+  position: relative;
+}
+.ng-subc-sli {
+  margin: 20px 0px 0px;
+}
+.ng-subc-sli li {
+  padding: 3px 0px 0px 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 32px;
+  overflow: hidden;
+  border-top: 2px solid #fff;
+  float: left;
+  cursor: pointer;
+}
+.ng-subc-sli li.on {
+  border-top: 2px solid #FF0000;
+}
+.ng-imsze {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 40;
+}
+.ng-imsze-map {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+.ng-imsze-map-left {
+  left: 0px;
+}
+.ng-imsze-map-right {
+  right: 0px;
+}
+.ng-imsze-map > span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  overflow: hidden;
+  margin-top: -20px;
+  top: 50%;
+  opacity: 0;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px 40px;
+}
+.ng-imsze-map > span img {
+  width: 100%;
+  display: block;
+}
+.ng-imsze-map-left > span {
+  left: 30%;
+  margin-left: -20px;
+}
+.ng-imsze-map-right > span {
+  right: 30%;
+  margin-right: -20px;
+}
+.ng-imsze-map-left:hover > span {
+  left: 50%;
+  opacity: 1;
+}
+.ng-imsze-map-right:hover > span {
+  right: 50%;
+  opacity: 1;
+}
+.ng-imins {
+  position: absolute;
+  z-index: 20;
+  bottom: 0px;
+  left: 0px;
+}
+.ng-imins-tit {
+  float: left;
+  max-width: 100%;
+  padding: 14px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+.ng-subse {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.ng-subse-tit {
+  font-size: 2.4rem;
+  color: #333333;
+  margin-bottom: 4px;
+  padding: 2px 0px;
+  line-height: 28px;
+}
+.ng-subse-text {
+  font-size: 1.7rem;
+  color: #666666;
+  margin-bottom: 4px;
+  padding: 2px 0px;
+  line-height: 26px;
+}
+.ng-subse-type {
+  margin: 12px auto 10px;
+}
+.ng-subse-type li {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  line-height: 28px;
+  font-size: 1.4rem;
+  color: #666666;
+}
+.ng-subse-type-name {
+  min-width: 70px;
+  color: #333333;
+  display: inline-block;
+  padding-right: 6px;
+}
+.ng-potapp {
+  padding: 12px 0px 0px;
+}
+.ng-potapp-tit {
+  font-size: 3.2rem;
+  color: #333333;
+  padding: 2px 0px;
+  margin: 0px auto 12px;
+}
+.ng-potapp-list {
+  position: relative;
+}
+.ng-potapp-list ul {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.ng-potapp-list ul li {
+  width: 25%;
+  padding: 0px 2px;
+  margin: 0px 0px 4px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.ng-potapp-img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.ng-potapp-img img {
+  width: 100%;
+  display: block;
+}
+.ng-plze {
+  background-image: url(../images/msiwom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  margin-top: -20px;
+  margin-left: -20px;
+  display: block;
+}
+.ng-potapp-list ul li:hover .ng-plze {
+  opacity: 1;
+}
+.ng-spiom {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  top: 100%;
+  z-index: 9888;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.ng-spiom-tit {
+  line-height: 30px;
+  font-size: 1.8rem;
+  color: #333333;
+  position: absolute;
+  top: 22px;
+  left: 22px;
+}
+.ng-spiom-del {
+  width: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.ng-spiom-del img {
+  width: 100%;
+  display: block;
+}
+.ng-spiom-show {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  right: 15px;
+  bottom: 20px;
+  z-index: 10;
+  overflow: hidden;
+}
+.ng-inzshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.ng-inzshow .swiper-slide {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.ng-inzshow .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.ng-inzshow .swiper-pagination-switch {
+  display: inline-block;
+  width: 22px;
+  height: 5px;
+  background: #979797;
+  margin: 0 5px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 40;
+}
+.ng-inzshow .swiper-active-switch {
+  background: #FFBB00;
+}
+.ng-inzshow-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
+  text-align: center;
+}
+.ng-inzshow-tab {
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+.ng-inzshow-middle {
+  vertical-align: middle;
+  max-width: 100%;
+  display: table-cell;
+}
+.ng-inzshow-middle img {
+  height: auto;
+  max-width: 100%;
+}
+.ng-onzebtn {
+  width: 80px;
+  bottom: 50px;
+  position: absolute;
+  top: 0px;
+  cursor: pointer;
+}
+.ng-onzebtn-left {
+  left: 0px;
+}
+.ng-onzebtn-right {
+  right: 0px;
+}
+.ng-onzebtn > span {
+  display: block;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  top: 50%;
+  margin-top: -12px;
+  position: absolute;
+  -webkit-transition: all .3s ease-in 0s;
+  -moz-transition: all .3s ease-in 0s;
+  -o-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+}
+.ng-onzebtn-left > span img {
+  width: 100%;
+  display: block;
+}
+.ng-onzebtn-left > span {
+  left: 0px;
+}
+.ng-onzebtn-right > span {
+  right: 0px;
+}
+.ng-onzebtn-left:hover > span {
+  left: 14px;
+}
+.ng-onzebtn-right:hover > span {
+  right: 14px;
+}
+.ng-addtab > thead > tr > th, .ng-addtab > tbody > tr > th, .ng-addtab > tfoot > tr > th, .ng-addtab > thead > tr > td, .ng-addtab > tbody > tr > td, .ng-addtab > tfoot > tr > td {
+  padding: 15px;
+  font-weight: 600;
+}
+.ng-cten {
+  background-color: #F5BB00;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.ng-addtab.table-bordered > thead > tr > th, .ng-addtab.table-bordered > tbody > tr > th, .ng-addtab.table-bordered > tfoot > tr > th, .ng-addtab.table-bordered > thead > tr > td, .ng-addtab.table-bordered > tbody > tr > td, .ng-addtab.table-bordered > tfoot > tr > td {
+  border: 1px solid #F5BB00;
+  vertical-align: middle;
+}
+.ng-addtab {
+  font-size: 1.5rem;
+}
+.ng-add-deradio {
+  display: inline-block;
+  margin-right: 60px;
+  line-height: 20px;
+  color: #444444;
+  font-weight: 400;
+}
+.ng-add-deradio input[type=radio], .ng-add-deradio input[type=checkbox] {
+  position: relative;
+  top: 1px;
+  margin-right: 2px;
+}
+.ng-ins-must {
+  color: #D52D3A;
+  padding: 0px 2px;
+}
+.ng-add-deinput {
+  border-style: solid;
+  border-color: #F5BB00;
+  border-width: 0px 0px 1px 0px;
+  width: 340px;
+  outline: 0px;
+  margin-left: 10px;
+  border-radius: 0px;
+  padding: 2px 0px;
+}
+.ng-simsbtn {
+  padding: 12px 20px;
+  width: 100%;
+  margin: 14px auto 10px;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 0px;
+  background-color: #F5BB00;
+  outline: 0px;
+  border: 0px;
+}
+.am-inside-swf {
+  height: 700px;
+}
+.ng-izomne {
+  padding: 0px 0px;
+  position: relative;
+}
+.ng-izomne-mund {
+  float: left;
+  line-height: 26px;
+  font-size: 1.3rem;
+  color: #9E9E9E;
+  width: 85%;
+}
+.ng-izomne-botne {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  display: block;
+  cursor: pointer;
+  outline: 0px;
+  /*border:1px solid #000;*/
+}
+.ng-izomne-botne img {
+  width: 100%;
+  display: block;
+}
+.pages {
+  clear: both;
+  margin: 0 auto 20px auto;
+  padding-top: 20px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+}
+.pages ul li {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 6px 15px;
+  margin: 0 1px;
+  line-height: 24px;
+  background: #fff;
+  color: #999;
+  border-radius: 2px
+}
+.pages ul li:hover {
+  background: #F5BB00;
+  color: #fff;
+  border: 1px solid #F5BB00
+}
+.pages ul li:hover a {
+  color: #fff;
+}
+.pages ul li.thisclass {
+  display: inline-block;
+  border: 1px solid #F5BB00;
+  padding: 6px 15px;
+  margin: 0 1px;
+  background: #F5BB00;
+  color: #fff;
+}
+.pages ul li.thisclass a {
+  color: #fff;
+}
+.pages ul li a {
+  display: block;
+  color: #999
+}
+.pages ul li a:hover {
+  color: #fff;
+}
