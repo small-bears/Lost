@@ -1,46 +1,55 @@
-# Lost
-基于SSM的小区失物招领网站
+
+### 联系方式（微信扫一扫）:
+<img width="444" height="560" alt="2fc79856-4bde-42f0-a5ea-83281867fbbe" src="https://github.com/user-attachments/assets/3eaeeaef-8fda-4c05-9f80-9e5361650c4a" />
+
+### 计算机毕设定制（直接点击链接）：https://www.yuque.com/techninja/code/xrpvpxbu3y8fa3ey?singleDoc#
+## 一、获取地址:
+
+#### 项目获取地址：https://www.666bear.com/12219.html
+
+**博主介绍：✌全网粉丝30W+,csdn特邀作者、Java领域优质创作者、csdn/掘金/哔哩哔哩/知乎/道客/小红书等平台优质作者，计算机毕设实战导师，目前专注于大学生项目实战开发,讲解,毕业答疑辅导✌工作室接计算机毕业设计程序开发、论文代写、代码讲解、出售成品源码等毕设服务，专业靠谱~**
+
+#### 作者QQ：3289948684 微信：bysj7626 (支持修改、 部署调试、 代做接毕业设计和课程设计)
+
+#### 接网站建设、小程序、H5、APP、各种系统、样式修改等
+
+#### 选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 都可以做
+
+#### 有需求尽管甩过来！一条龙帮你安心过！
+
+#### 所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
 
 ## 一、 项目介绍
-基于SSM的小区失物招领网站
+(协同过滤推荐算法+AI智能助手)基于SpringBoot的社区老年人健康管理系统包含前台用户模块、后台模块（管理员、医生）三部分，具体功能如下：
 
-角色：管理员、物业、失主
+前台用户模块基础功能模块：首页、服务信息、体检信息、健康资讯、在线咨询个人中心功能：修改密码、服务预约、健康档案、体检预约、体检报告、我的收藏
+后台管理员模块全流程管理类功能：系统首页、用户管理、医生管理、服务类型管理、服务信息管理、服务预约管理、健康档案管理、体检类型管理、体检信息管理、体检预约管理、体检报告管理、系统管理
+后台医生模块操作管理类功能：系统首页、服务信息管理、服务预约管理、健康档案管理、体检信息管理、体检预约管理、体检报告管理、个人中心
 
-小区失物招领网站的主要使用者分为管理员；个人中心、业主管理、失主管理、物品类型管理、失物展示管理、失物认领管理、在线投诉管理、论坛交流、系统管理，业主；个人中心、失物展示管理、失物认领管理、在线投诉管理、我的收藏管理，前台首页；首页、失物展示、论坛信息、新闻资讯、我的、跳转到后台、客服，失主；个人中心、失物认领管理、我的收藏管理等功能。
-## 二、 视频演示
 
-<p style="text-align: center;"><strong><span class="ne-text">建议点击这个</span><a style="color: #ff0000;" href="https://www.bilibili.com/video/BV1jM4y1o7Ch/?spm_id_from=333.999.0.0">“链接”</a>查看高清视频</strong></p>
+## 二、 视频演示（点击既可以看到）
 
-## 三、 运行环境
+https://www.bilibili.com/video/BV1rFyYBqEh5/?spm_id_from=333.1387.list.card_archive.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
+
+## 三、项目技术
+
+后端： SpringBoot+Mybaits
+
+前端：Vue +ELementUI 
+
+
+
+## 四、 运行环境
+
 开发语言：Java
 
 开发工具：IDEA，Eclipse,Myeclipse都可以。推荐IDEA
 
 JDK版本：1.8
 
-数据库: MySQL5.7
-
-Tomcat环境：Tomcat 7.x,8.x,9.x版本均可
+数据库: MySQL8.0版本以上
 
 项目管理：Maven
-## 四、项目技术
-后端：SSM(Spring+SpringMVC+Mybatis)     
+## 五、 运行截图（点图片可放大）
 
-前端：JSP+CSS+JS+JQUERY+Layui
-## 五、运行截图（点图片可放大）
-
-![1677493063196](https://user-images.githubusercontent.com/124327024/235941784-4e80fee0-044c-4bbd-8564-c2b834283485.jpg)
-![1677493168123](https://user-images.githubusercontent.com/124327024/235941819-19fb0c58-2fcb-4f97-8dc5-9713ef44039f.jpg)
-![1677493187000](https://user-images.githubusercontent.com/124327024/235941856-28c2c56d-27e8-4301-b156-6ca53ce813d5.jpg)
-![1677493310148](https://user-images.githubusercontent.com/124327024/235941873-464cb306-1fb2-4534-a7a5-f5d747d1eded.jpg)
-![1677493376096](https://user-images.githubusercontent.com/124327024/235941876-7b557406-6060-4a65-86c3-17a569572d6c.jpg)
-![1677549729883](https://user-images.githubusercontent.com/124327024/235941882-075321f0-bdc4-4d94-a735-5fced17c6664.jpg)
-![L0K(B) %0 %ZEM10F5JEH1E](https://user-images.githubusercontent.com/124327024/235941886-26ce448d-eb67-477c-999d-108d2c382a0b.png)
-
-## 六、更多服务
-如果需要程序代码讲解、Java开发环境搭建、软件安装、代码调试、项目运行服务、项目定制开发服务、课程设计、毕业设计可联系我们。
-
-若有需要，请联系我们
-
-QQ: 3289948684
-
+https://www.bilibili.com/video/BV1rFyYBqEh5/?spm_id_from=333.1387.list.card_archive.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
